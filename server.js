@@ -4,9 +4,10 @@ const requireDir = require('require-dir');
 
 // Iniciando App
 const app = express();
+app.use(express.json());
 
 // Iniciando o DB
-mongoose.connect("mongodb://localhost:27012/nodeapi", {useNewUrlParser: true});
+mongoose.connect("mongodb://localhost:27012/nodeapi", { useNewUrlParser: true });
 
 requireDir("./src/models");
 
