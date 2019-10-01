@@ -1,4 +1,7 @@
 # NodeJs - Curso Gratuito
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/marcelochb/node-api.svg)](https://greenkeeper.io/)
+
 ## RocketSeat
 
 ### Sobre o curso
